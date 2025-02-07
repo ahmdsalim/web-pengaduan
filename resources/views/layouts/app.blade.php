@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{URL::asset('public/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('public/favicon-32x32.png')}}">
     <meta charset="utf-8">
     <meta name="description" content="Zona Aman Perempuan adalah website berbasis pengaduan pelecehan seksual yang ditujukan bagi korban, orang-orang terdekat maupun saksi mata untuk mengisi kolom pengaduan pelecehan seksual.">
     <meta name="keyword" content="pengaduan pelecehan seksual, bantuan hukum, pelaporan pelecehan">
